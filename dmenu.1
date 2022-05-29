@@ -3,7 +3,7 @@
 dmenu \- dynamic menu
 .SH SYNOPSIS
 .B dmenu
-.RB [ \-bfiv ]
+.RB [ \-bfsv ]
 .RB [ \-l
 .IR lines ]
 .RB [ \-m
@@ -40,8 +40,8 @@ which lists programs in the user's $PATH and runs the result in their $SHELL.
 .B \-b
 dmenu appears at the bottom of the screen.
 .TP
-.B \-i
-dmenu matches menu items case insensitively.
+.B \-s
+dmenu matches menu items case sensitively.
 .TP
 .BI \-l " lines"
 dmenu lists items vertically, with the given number of lines.
